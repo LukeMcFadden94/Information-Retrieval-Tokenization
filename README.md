@@ -2,6 +2,7 @@ Made by Luke McFadden
 
 Note, this saves to memory and not to disk, so every run of this program will take about 1-2 minutes to fully parse through the entire collection of files!
 
+## **How it works**
 A combination of dictionaries and lists are used to keep track of and store important aspects that the assignment asks for.
 After documents are extracted, the words within stopword.txt are extracted and used for a stopwords list. Any words found within this list are removed from allthe documents.
 Stemming is performed after stop word removal.
@@ -10,7 +11,7 @@ Dictionaries and lists are used and updated as each document is iterated through
 The nltk.stem library is used, specifically the PorterStemmer() function. 
 After stop words are removed, the remaining words are passed through this function to perform stemming.
 
-How to run code:
+## **How to run the code**
 The program accepts 3 different forms of input. DOCNAME or TERM are included for as reference. Said forms are shown below:
 
 .\read_index.py --doc AP890123-0321
